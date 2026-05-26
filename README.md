@@ -9,6 +9,7 @@ This repository preserves the spirit of the original UVG digital screen by **Sak
 - English: <https://dewy-marvel-wef8.here.now/>
 - Français: <https://dewy-marvel-wef8.here.now/fr/>
 - Original source page: <https://tarsostheorem.blogspot.com/p/uvg-digital-dm-screen.html>
+- French UVG reference/glossary: <https://uvg.whidou.fr/start>
 
 ## What's Inside
 
@@ -30,15 +31,17 @@ This repository preserves the spirit of the original UVG digital screen by **Sak
 
 The French page lives at [`site/fr/index.html`](site/fr/index.html).
 
-Current French coverage focuses on:
+The French version is intended to be a usable localized screen rather than a partial UI translation. It includes:
 
 - navigation and control labels
 - visible section and table buttons
-- short help text for the main toolbox
-- trade instructions and key generated result labels
-- HTML validity fixes for the French mirror
+- help text and short table descriptions
+- generated results for the main toolbox, travel, trade, setting, zoa, neozoa, research, and location-specific UVG tables
+- translated long embedded table entries and location descriptions
+- glossary harmonization for recurring UVG names such as Cité Noire, Cité Violette, Prairies Ultraviolettes, Colosse Herbeux, Lune Proche, Fleuve de la Lune, Plage du Vicaire, and related terms
+- a compatibility mirror at [`site/index_fr.html`](site/index_fr.html)
 
-The long embedded UVG table results are still mostly inherited from the English source. They are intentionally left intact for now so the generators remain stable and faithful to the original tables.
+The localization was first translated from the English digital screen source, then terminology was aligned with the French UVG material collected at <https://uvg.whidou.fr/start>. Some long generated entries may still benefit from editorial polishing because several large blocks were translated mechanically before glossary cleanup.
 
 ## Project Structure
 
